@@ -1,0 +1,230 @@
+/*top bar*/
+header {
+    border-top: 1px solid black;
+}
+.top-bar {
+    height: 40px;
+    line-height: 40px;
+    background-color: #333;
+}
+
+.top-bar > .container {
+    display: flex;
+    justify-content: space-between;
+}
+
+.top-bar > .container > .left-nav {
+    display: flex;
+}
+
+.top-bar > .container > .left-nav > li > a {
+    font-size: 12px;
+    color: #b0b0b0;
+    padding: 0 8px;
+    border-right: 1px solid #424242;
+}
+
+.top-bar > .container > .left-nav > li:first-child > a{
+    padding-left: 10px;
+    margin-left: 200px;
+}
+
+.top-bar > .container > .left-nav> li > a {
+    margin: 0px 50px;
+}
+
+.top-bar > .container > .left-nav > li:last-child > a {
+    border: none;
+    padding-right: 10px;
+}
+
+.top-bar .right-nav {
+    display: flex;
+}
+
+
+.top-bar .right-nav > li > a {
+    padding: 0 8px;
+    color: #b0b0b0;
+    font-size: 12px;
+    margin-left: 100px;
+}
+
+* {
+    box-sizing: border-box;
+}
+/*content movie*/
+.content{
+    height: 600px;
+    background-color: black;
+    text-align: center;
+
+}
+
+.content> .container > img {
+    height: 600px;
+}
+/*hobby page*/
+.content2{
+    height: 600px;
+    background-color: black;
+}
+.content2> .container> .img>img:first-child{
+    height: 600px;
+    width: 100px;
+}
+.content2> .container> .img>img{
+    height: 600px;
+    width: 1000px;
+}
+.content2> .container> .img> img:last-child{
+    height: 600px;
+    width: 100px;
+}
+/*grade page*/
+.content3 {
+    height: 600px;
+    background-color: #2e6da4;
+}
+
+.content3>.container>main{
+    text-align: center;
+}
+
+.content3>.container>main>div>div>table{
+    text-align: center;
+}
+/*login page*/
+.content4{
+    height: 600px;
+    font-size: 50px;
+}
+
+.content4>form>#txt{
+    display: block;
+    border: 1px solid grey;
+    font-size: 50px;
+}
+.content4>form>#pwd{
+    display: block;
+    border: 1px solid grey;
+    font-size: 50px;
+}
+
+.content4>form>#btn{
+    font-size: 50px;
+}
+/*the blog.html*/
+.content5{
+    height: 700px;
+}
+.content5> #btn1{
+    font-size: 30px;
+}
+.content5> #btn2{
+    font-size: 30px;
+}
+.content5> #btn3{
+    font-size: 30px;
+}
+
+.content5> table>caption{
+    font-size: 30px;
+    color: red;
+}
+.content5> section>article{
+    font-size: 25px;
+}
+.content5> table{
+    border: 2px solid black;
+}
+.content5> table td{
+    border: 2px solid blue;
+}
+.even{
+    color: red;
+}
+footer {
+    border-top: 1px solid black;
+}
+/*bottom-bar*/
+.bottom-bar {
+    height: 225px;
+    background-color: #2aabd2;
+}
+
+.bottom-bar> .container > .article1 > p{
+    font-size: 20px;
+}
+.bottom-bar> .container > .media-image > ul > li{
+    float: left;
+}
+.bottom-bar> .container > .media-image > ul > li > a > img{
+    width: 100px;
+    height: 100px;
+    margin: 0px 100px;
+}
+body {
+    font: 14px/1.5 Helvetica Neue, Helvetica, Arial, Microsoft Yahei, Hiragino Sans GB, Heiti SC, WenQuanYi Micro Hei, sans-serif;
+    color: #333;
+    background-color: #fff;
+    min-width: 1226px;
+}
+
+.container {
+    width: 1226px;
+    margin: 0 auto;
+}
+
+/* position */
+.pos-r {
+    position: relative;
+}
+
+.pos-a {
+    position: absolute;
+}
+
+.pos-f {
+    position: relative;
+}
+
+/* 浮动 */
+.fl {
+    float: left;
+}
+
+.fr {
+    float: right;
+}
+
+/*uniform format*/
+body,
+p,
+ul,
+ol,
+dl,
+dt,
+dd,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6{
+    margin: 0;
+    padding: 0;
+}
+
+ul,ol {
+    list-style: none;
+}
+
+input {
+    border: none;
+    outline: none;
+}
+
+a {
+    text-decoration: none;
+}
